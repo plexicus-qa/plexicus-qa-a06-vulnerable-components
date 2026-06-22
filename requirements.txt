@@ -1,0 +1,37 @@
+# VULNERABILITY: All packages pinned to versions with known critical CVEs
+
+# CVE-2019-14234: SQL injection via key transforms
+Django==2.2.0
+
+# CVE-2021-25287: Heap buffer overflow in TIFF decoding
+Pillow==8.1.0
+
+# CVE-2020-14343: Arbitrary code execution via yaml.load() without Loader
+PyYAML==5.1
+
+# CVE-2015-2296: Session fixation
+requests==2.6.0
+
+# CVE-2019-11324: Certificate verification bypass
+urllib3==1.24.1
+
+# CVE-2018-1000656: Denial of service via large JSON payloads
+Flask==0.12.2
+
+# CVE-2019-10906: Sandbox escape via string format
+Jinja2==2.10
+
+# CVE-2020-25659: Bleichenbacher timing oracle attack
+cryptography==3.2
+
+# CVE-2021-23727: Command injection via task names
+celery==4.4.0
+
+# CVE-2020-27783: XSS in lxml HTML cleaner
+lxml==3.6.4
+
+# CVE-2022-42969: ReDoS
+py==1.9.0
+
+# Multiple CVEs including arbitrary code execution
+SQLAlchemy==1.3.0
